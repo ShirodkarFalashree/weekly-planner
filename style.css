@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Caveat:wght@700&family=Cinzel&family=Gloria+Hallelujah&family=Gluten:wght@700&family=Lemon&family=Lugrasimo&family=Poppins:wght@200;400&family=Single+Day&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: rgb(5, 2, 78);
+    font-family: sans-serif;
+}
+h1{
+    font-family:'Lemon';
+}
+.top-heading{
+    font-size: 60px;
+    color: #fff;
+    font-family:'Lemon';
+    /* text-align: center; */
+    /* margin-left: 50px; */
+    display: flex;
+    justify-content: center;
+}
+.outer {
+    display: flex;
+    padding: 40px;
+    flex-wrap: wrap;
+    /* background-image: url("https://wallpapercave.com/wp/wp6062534.jpg"); */
+    background-repeat: no-repeat;
+    /* width: 100%;
+    height: 100%; */
+    background: linear-gradient(145deg, rgb(5, 2, 78) 0%, rgb(7, 7, 157) 47%, rgba(0,212,255,1) 87%);
+}
+.daybox{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.input-box{
+    border: 2px dotted white;
+    width: 450px;
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    /* top: 50%;
+    left: 50%; */
+    padding: 30px 40px;
+    border-radius: 5px;
+}
+
+.new-task{
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 20PX 20PX rgba(0, 0, 0, 0.344);
+}
+
+.new-task button{
+    padding: 10px 5px ;
+    /* margin-left: 70px; */
+    background-color:rgb(5, 2, 78);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.new-task input{
+    padding: 10px 5px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+
+.tasks{
+    background-color: #fff;
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0 20PX 20PX rgba(0, 0, 0, 0.344);
+    width: 100%;
+    position: relative;
+    color: black;
+}
+
+.task{
+    background-color: #fff;
+    height: 50px;
+    padding:5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(193, 193, 193);
+    cursor: pointer;
+}
+
+.task button{
+    padding: 10px;
+    background-color:rgb(5, 2, 78);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.compleated{
+    text-decoration: line-through;
+}
